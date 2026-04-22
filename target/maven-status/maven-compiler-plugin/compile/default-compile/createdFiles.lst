@@ -1,7 +1,3 @@
-com/smartcampus/model/Sensor.class
-com/smartcampus/resource/SensorResource.class
 com/smartcampus/repository/SensorRepository.class
 com/smartcampus/config/SmartCampusApplication.class
-com/smartcampus/exception/GenericExceptionMapper.class
-com/smartcampus/filter/RequestLoggingFilter.class
-com/smartcampus/mapper/SensorMapper.class
+com/smartcampus/model/Sensor.class
