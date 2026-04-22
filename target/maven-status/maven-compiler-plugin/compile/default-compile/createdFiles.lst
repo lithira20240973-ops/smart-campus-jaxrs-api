@@ -1,3 +1,5 @@
+com/smartcampus/model/SensorReading.class
 com/smartcampus/repository/SensorRepository.class
 com/smartcampus/config/SmartCampusApplication.class
+com/smartcampus/model/Room.class
 com/smartcampus/model/Sensor.class
