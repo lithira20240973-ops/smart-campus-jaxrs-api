@@ -87,6 +87,12 @@ public class SensorResource {
         return Response.ok(sensor).build();
     }
 
+    // Sub-resource locator for sensor readings
+    @Path("/{sensorId}/readings")
+    public SensorReadingResource getSensorReadingResource(@PathParam("sensorId") String sensorId) {
+        return new SensorReadingResource(sensorId);
+    }
+
     // Helper method to create simple JSON messages
     private Map<String, String> createMessage(String text) {
         Map<String, String> map = new HashMap<>();

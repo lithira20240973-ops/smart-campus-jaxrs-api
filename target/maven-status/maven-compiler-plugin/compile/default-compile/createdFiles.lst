@@ -4,6 +4,8 @@ com/smartcampus/model/Sensor.class
 com/smartcampus/resource/SensorResource.class
 com/smartcampus/resource/RoomResource.class
 com/smartcampus/model/SensorReading.class
+com/smartcampus/resource/SensorReadingResource.class
 com/smartcampus/repository/RoomRepository.class
 com/smartcampus/repository/SensorRepository.class
 com/smartcampus/config/SmartCampusApplication.class
+com/smartcampus/repository/SensorReadingRepository.class

@@ -1,12 +1,14 @@
 /Users/lithira_kalubowila/Documents/smart-campus-jaxrs-api/src/main/java/com/smartcampus/repository/RoomRepository.java
 /Users/lithira_kalubowila/Documents/smart-campus-jaxrs-api/src/main/java/com/smartcampus/config/SmartCampusApplication.java
 /Users/lithira_kalubowila/Documents/smart-campus-jaxrs-api/src/main/java/com/smartcampus/model/Sensor.java
+/Users/lithira_kalubowila/Documents/smart-campus-jaxrs-api/src/main/java/com/smartcampus/filter/RequestLoggingFilter.java
+/Users/lithira_kalubowila/Documents/smart-campus-jaxrs-api/src/main/java/com/smartcampus/resource/DiscoveryResource.java
+/Users/lithira_kalubowila/Documents/smart-campus-jaxrs-api/src/main/java/com/smartcampus/repository/SensorReadingRepository.java
 /Users/lithira_kalubowila/Documents/smart-campus-jaxrs-api/src/main/java/com/smartcampus/resource/RoomResource.java
 /Users/lithira_kalubowila/Documents/smart-campus-jaxrs-api/src/main/java/com/smartcampus/exception/GenericExceptionMapper.java
-/Users/lithira_kalubowila/Documents/smart-campus-jaxrs-api/src/main/java/com/smartcampus/filter/RequestLoggingFilter.java
 /Users/lithira_kalubowila/Documents/smart-campus-jaxrs-api/src/main/java/com/smartcampus/resource/SensorResource.java
 /Users/lithira_kalubowila/Documents/smart-campus-jaxrs-api/src/main/java/com/smartcampus/repository/SensorRepository.java
-/Users/lithira_kalubowila/Documents/smart-campus-jaxrs-api/src/main/java/com/smartcampus/resource/DiscoveryResource.java
 /Users/lithira_kalubowila/Documents/smart-campus-jaxrs-api/src/main/java/com/smartcampus/model/SensorReading.java
 /Users/lithira_kalubowila/Documents/smart-campus-jaxrs-api/src/main/java/com/smartcampus/mapper/SensorMapper.java
+/Users/lithira_kalubowila/Documents/smart-campus-jaxrs-api/src/main/java/com/smartcampus/resource/SensorReadingResource.java
 /Users/lithira_kalubowila/Documents/smart-campus-jaxrs-api/src/main/java/com/smartcampus/model/Room.java
