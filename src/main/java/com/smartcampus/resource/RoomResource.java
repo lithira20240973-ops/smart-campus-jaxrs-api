@@ -69,9 +69,7 @@ public class RoomResource {
 
         // Prevent deletion if room has associated sensors
         if (room.getSensorIds() != null && !room.getSensorIds().isEmpty()) {
-            return Response.status(Response.Status.CONFLICT)
-                    .entity(createMessage("Cannot delete room: it has active sensors"))
-                    .build();
+            throw new com.smartcampus.exception.RoomNotEmptyException("Cannot delete room: it has active sensors");
         }
 
         RoomRepository.delete(roomId);

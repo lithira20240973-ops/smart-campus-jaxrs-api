@@ -54,9 +54,7 @@ public class SensorResource {
         // Validate that the room actually exists in the room store
         Room room = RoomRepository.findById(roomId);
         if (room == null) {
-            return Response.status(422)
-                    .entity(createMessage("Validation failed: Room ID '" + roomId + "' does not exist"))
-                    .build();
+            throw new com.smartcampus.exception.LinkedResourceNotFoundException("Validation failed: Room ID '" + roomId + "' does not exist");
         }
 
         // Try saving the sensor
